@@ -2,19 +2,16 @@
 #include <ESP8266_Lib.h>
 #include <BlynkSimpleShieldEsp8266.h>
 #include <SimpleTimer.h>
-char auth[] = "22120e3542924ce0aacc2ab43efb2d2c"; // Chave do Blynk
+char auth[] = "Substituir pela Chave do Blynk"; // Chave do Blynk
 SimpleTimer timer;
-char ssid[] = "WLL-Inatel"; // Nome do Wifi
-char pass[] = "inatelsemfio"; // Senha do Wifi
+char ssid[] = "Substituir pelo Nome do Wifi"; // Nome do Wifi
+char pass[] = "Substituir pela Senha do Wifi"; // Senha do Wifi
 #include <SoftwareSerial.h>
 SoftwareSerial EspSerial(8, 9); // RX, TX
+
 float h;
-
 float t;
-
 float a;
-
-
 
 #define rele1 3
 #define rele2 4
